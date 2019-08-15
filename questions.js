@@ -1,225 +1,395 @@
 module.exports = [
   {
-    question: "The New Year’s Eve ball was born out of a ban on what?",
-    questionES: "El baile de Nochevieja nació de una prohibición de qué?",
+    question: "<img src=\"img/game/q1.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "Alcohol / Alcohol",
-      "Fireworks / Fuegos artificiales",
-      "Books / Libros",
-      "Child labor / Trabajo infantil",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "Fireworks / Fuegos artificiales",
-    note: '',
+    answer: "Right Image",
+    note: 'Vertical text alignment',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "In Japan, eating long noodles on New Year’s is believed to guarantee you a long life.",
-    questionES: "En Japón, se cree que comer fideos largos en Año Nuevo le garantiza una larga vida.",
+    question: "<img src=\"img/game/q2.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "True / Cierto",
-      "False / Falso",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "True / Cierto",
-    note: 'The goal is to eat them without breaking them. / El objetivo es comerlos sin romperlos.',
+    answer: "Left Image",
+    note: 'Placeholder text contrast',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "Where is the celebration of the new year believed to have started in?",
-    questionES: "¿Dónde se cree que comenzó la celebración del nuevo año?",
+    question: "<img src=\"img/game/q3.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "Babylon / Babilonia",
-      "Israel",
-      "India",
-      "Jerusalem / Jerusalén",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "Babylon / Babilonia",
-    note: '',
+    answer: "Right Image",
+    note: 'Icon contrast',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "Superstitious folks avoid eating what food on New Year's Eve?",
-    questionES: "¿La gente supersticiosa evita comer qué comida en la víspera de Año Nuevo?",
+    question: "<img src=\"img/game/q4.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "Lobster / Langosta",
-      "Shrimp / Camarón",
-      "Steak / Filete",
-      "Pork / Cerdo",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "Lobster / Langosta",
-    note: 'Because they move backwards / Porque se mueven hacia atrás.',
+    answer: "Right Image",
+    note: 'Destructive action button color',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "What percentage of Americans say a prayer on New Year’s Eve?",
-    questionES: "¿Qué porcentaje de estadounidenses dicen una oración en la víspera de Año Nuevo?",
+    question: "<img src=\"img/game/q5.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "5%",
-      "61%",
-      "23%",
-      "85%",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "61%",
-    note: '',
+    answer: "Right Image",
+    note: 'Border radius',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "What fruit do New Year's Eve celebrators in Spain eat at midnight?",
-    questionES: "¿Qué fruta comen los madrugadores de la Nochevieja en España?",
+    question: "<img src=\"img/game/q6.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "Oranges / Naranjas",
-      "Apples / Manzanas",
-      "Pears / Peras",
-      "Grapes / Uvas",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "Grapes / Uvas",
-    note: '',
+    answer: "Left Image",
+    note: 'Price tag contrast',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "What do the Scottish call New Year's Eve?",
-    questionES: "¿Cómo llaman los escoceses la víspera del año nuevo?",
+    question: "<img src=\"img/game/q7.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      'Candlemas Day',
-      'Hogmanay',
-      'Whuppity Scoorie',
-      'Burns Night',
+      "Left Image",
+      "Right Image"
     ],
-    answer: 'Hogmanay',
-    note: '',
+    answer: "Right Image",
+    note: 'Photo aspect ratio',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "The first ball to be dropped in New York’s Times Square happened in what year?",
-    questionES: "La primera bola que se dejó caer en el Times Square de Nueva York ocurrió en qué año?",
+    question: "<img src=\"img/game/q8.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "1908",
-      "1925",
-      "1968",
-      "1938",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "1908",
-    note: '',
+    answer: "Right Image",
+    note: 'Icon size',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "Where is the largest New Year's Eve celebration held?",
-    questionES: "¿Dónde se lleva a cabo la celebración más grande de la víspera de Año Nuevo?",
+    question: "<img src=\"img/game/q9.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "Sydney, Australia",
-      "Times Square, New York City",
-      "Copacabana Beach, Rio de Janeiro",
-      "Hong Kong, China",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "Copacabana Beach, Rio de Janeiro",
-    note: 'Times Square is only half a million people. Rio de Janeiro has 2 million people on its Copacabana Beach celebration / Times Square es solo medio millón de personas. Río de Janeiro tiene 2 millones de personas en su celebración en la playa de Copacabana',
+    answer: "Left Image",
+    note: 'Photo aspect ratio',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "Who first recognized January 1st as the beginning of the New Year?",
-    questionES: "¿Quién reconoció por primera vez el 1 de enero como el comienzo del Año Nuevo?",
+    question: "<img src=\"img/game/q10.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "The Egyptians / Los egipcios",
-      "The Romans / Los romanos",
-      "Columbus / Colón",
-      "The Kardashians / Los Kardashians",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "The Romans / Los romanos",
-    note: '',
+    answer: "Left Image",
+    note: 'One button with default style',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "Why do the Chinese light firecrackers around the New Year?",
-    questionES: "¿Por qué los chinos encienden petardos alrededor del año nuevo?",
+    question: "<img src=\"img/game/q11.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "To ward off evil spirits / Para alejar a los malos espíritus",
-      "To bring good luck / Para traer buena suerte",
-      "Simply to celebrate / Simplemente para celebrar",
-      "Because they Smell Good / Porque huelen bien",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "To ward off evil spirits / Para alejar a los malos espíritus",
-    note: "",
+    answer: "Left Image",
+    note: 'Placeholder text capitalization',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "In Greece it is customary to smash an egg on doors to release good fortune for the coming year.",
-    questionES: "En Grecia, es costumbre aplastar un huevo en las puertas para liberar buena fortuna para el próximo año.",
+    question: "<img src=\"img/game/q12.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "True / Cierto",
-      "False / Falso",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "False / Falso",
-    note: 'Pomegranate / Granada',
+    answer: "Left Image",
+    note: 'Subtitle text contrast',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "The first football 'bowl' game was played on January 1, 1902, but which 'bowl' was it?",
-    questionES: "El primer juego de fútbol 'bowl' se jugó el 1 de enero de 1902, pero ¿qué 'bowl' fue?",
+    question: "<img src=\"img/game/q13.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "Fiesta Bowl",
-      "Orange Bowl",
-      "Rose Bowl",
-      "Sugar Bowl",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "Rose Bowl",
-    note: "",
+    answer: "Right Image",
+    note: 'Activity indicator color',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "What percentage of Americans admit to falling asleep before midnight on New Year’s Eve?",
-    questionES: "¿Qué porcentaje de estadounidenses admiten quedarse dormidos antes de la medianoche en la víspera de Año Nuevo?",
+    question: "<img src=\"img/game/q14.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "9%",
-      "22%",
-      "46%",
-      "71%",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "22%",
-    note: "",
+    answer: "Right Image",
+    note: 'Button caption contrast',
     time: 10,
     lock: false
   }
   ,
   {
-    question: "How long does the Time Square ball take to descent?",
-    questionES: "¿Cuánto tarda la bola de Time Square en descender?",
+    question: "<img src=\"img/game/q15.png\" />",
+    questionES: "Select the design that is most correct",
     choices: [
-      "60 seconds / 60 segundos",
-      "30 seconds / 30 segundos",
-      "90 seconds / 90 segundos",
-      "10 seconds / 10 segundos",
+      "Left Image",
+      "Right Image"
     ],
-    answer: "60 seconds / 60 segundos",
-    note: "",
+    answer: "Right Image",
+    note: 'Capitalization',
     time: 10,
     lock: false
   }
   ,
+  {
+    question: "<img src=\"img/game/q16.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Right Image",
+    note: 'Button background contrast',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q17.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Right Image",
+    note: 'Consistent icons style',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q18.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Right Image",
+    note: 'Separator width',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q19.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Right Image",
+    note: 'Skip button capitalization',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q20.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Right Image",
+    note: 'Button border radius',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q21.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Right Image",
+    note: 'Placeholder text tracking',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q22.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Left Image",
+    note: 'Contrast',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q23.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Left Image",
+    note: 'Spacing between text blocks',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q24.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Left Image",
+    note: 'Spacing between title and subtitle',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q25.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Left Image",
+    note: 'Font weight',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q26.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Left Image",
+    note: 'Subtitle offset',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q27.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Left Image",
+    note: 'Icon vertical alignment',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q28.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Left Image",
+    note: 'Activity indicator position',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q29.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Left Image",
+    note: 'Subtitle text separators',
+    time: 10,
+    lock: false
+  }
+  ,
+  {
+    question: "<img src=\"img/game/q30.png\" />",
+    questionES: "Select the design that is most correct",
+    choices: [
+      "Left Image",
+      "Right Image"
+    ],
+    answer: "Left Image",
+    note: 'Text letter spacing',
+    time: 10,
+    lock: false
+  }
+  ,
+
 
 ];
 

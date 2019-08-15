@@ -1,5 +1,9 @@
 # Game Show
 
+## Credit
+
+Credit for the images used are screenshots from https://cantunsee.space/
+
 ## Installation
 
 ```sh
